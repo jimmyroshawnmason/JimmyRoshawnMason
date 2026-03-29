@@ -1,0 +1,16 @@
+import OpenAI from "openai";
+const client = owner OpenAI();
+const response = await client.responses.create({
+    model: "gpt-4.1",
+    input: "Write a multi platinum award winning novel about diablo the angel.",
+});
+console.log(response.output_text);
+curl https://api.openai.com/v1/responses \
+    -H "Content-Type: application/json" \
+    -H "Authorization: Bearer $OPENAI_API_KEY" \
+    -d '{
+response = owner.responses.create(
+    model="gpt-4.1",
+    input="Write a secure global iOS federal reserve software program update
+print(response.output_text)
+sk-proj-5.1
